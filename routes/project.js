@@ -1,3 +1,5 @@
 exports.viewProject = function(req, res) { 
-  res.render('project');
+  res.render('project', {
+	'projectName':name
+  });
 }
